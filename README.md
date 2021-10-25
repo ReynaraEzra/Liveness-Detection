@@ -9,6 +9,7 @@ Github :
 - https://github.com/anand498/Face-Liveness-Detection/tree/master/livenessdetect
 - https://github.com/dwang0721/Facial-Recognition-using-Fourier-Transform
 - https://github.com/Prem95/face-liveness-detector
+- https://github.com/sakethbachu/Face-Liveness-Detection
 
 Reference :
 - https://www.thalesgroup.com/en/markets/digital-identity-and-security/government/inspired/liveness-detection
