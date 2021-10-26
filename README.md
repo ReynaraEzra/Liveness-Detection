@@ -2,6 +2,13 @@
 
 LIVENESS DETECTION
 
+Dataset Folder :
+- `Live Folder` : List of Real Images
+- `Spoof Folder` : List of Spoof Images
+- `Dataset.zip` : Contain 59 images (29 Live Images & 30 Spoof Images)
+- `CelebASpoof-Dataset.zip` : Contain 400 images (200 Live Images & 200 Spoof Images)
+
+## Reference 
 Dataset :
 - https://www.kaggle.com/attentionlayer241/celeba-spoof-for-face-antispoofing
 - https://github.com/Davidzhangyuanhan/CelebA-Spoof
@@ -12,7 +19,7 @@ Github :
 - https://github.com/Prem95/face-liveness-detector
 - https://github.com/sakethbachu/Face-Liveness-Detection
 
-Reference :
+Journal/Article :
 - https://www.thalesgroup.com/en/markets/digital-identity-and-security/government/inspired/liveness-detection
 - https://www.pyimagesearch.com/2019/03/11/liveness-detection-with-opencv/
 - https://www.researchgate.net/publication/334507381_Insight_on_Face_Liveness_Detection_A_Systematic_Literature_Review
