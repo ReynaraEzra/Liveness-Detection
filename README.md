@@ -4,6 +4,7 @@ LIVENESS DETECTION
 
 Dataset :
 - https://www.kaggle.com/attentionlayer241/celeba-spoof-for-face-antispoofing
+- https://github.com/Davidzhangyuanhan/CelebA-Spoof
 
 Github :
 - https://github.com/anand498/Face-Liveness-Detection/tree/master/livenessdetect
