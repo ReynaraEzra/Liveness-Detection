@@ -1,6 +1,24 @@
 # Liveness-Detection
+An overview of face liveness detection
 
-LIVENESS DETECTION
+<hr>
+
+## Background
+![dataset.png](https://d1tzzns6d79su2.cloudfront.net/uploads/embedded_image/c71c2d888583b39413a3626722d03eda2ba6ea938672f974efaf9a86b98b4bdc/87d93aad-d1c9-4c74-8121-1878983c2a81.webp)
+
+Liveness detection is the application of the field of computer vision in biometrics which gives the system the ability to be able to recognize several biometric objects such as fingerprints, faces and so on so as to be able to distinguish between pseudo/fake biometric objects and real biometric objects. Create image-based anti-spoofing model by classifying whether its considered as live or fake
+
+## Audience
+The application of algorithms to detect faces has been used in several companies. But face detection like this can be spoofed by using a print of someone's face or wearing a mask. By building face liveness detection, we will see if the detected image is a human or a human image.
+
+## Dataset
+In this problem, we will use two datasets, namely MSU-MFSD and CelebA-Spoof. MSU-MFSD dataset contains as many as 280 video recordings, both genuine and fake. Made from 35 participants. The original dataset was made with 2 different devices, namely a laptop camera and an android. Meanwhile, the fake dataset was made with 2 different devices, namely iPhone and Canon camera. The dataset structure consists of training and testing. Training is made of 15 subjects and 120 videos, while testing is made of 40 subjects and 160 videos. CelebA-Spoof dataset contains 625,537 images from 10,177 subjects covering 43 attributes such as the face, illumination, environment, and spoof. But in this repository, we will only use the second one. You can access the dataset via https://github.com/Davidzhangyuanhan/CelebA-Spoof (github) or https://www.kaggle.com/attentionlayer241/celeba-spoof-for-face-antispoofing (kaggle)
+
+## Plan
+The problem to be solved is to create a model to perform face liveness detection. The information to be obtained is to find out whether the detected face is genuine or not. The model creation process starts with preprocessing image data, building deep learning models using the Convolutional Neural Network architecture, improving model performance with tuning parameters to select the best model, and making predictions.
+
+## Note
+Description of the file in the repository.
 
 Dataset Folder :
 - `Live Folder` : List of Real Images
